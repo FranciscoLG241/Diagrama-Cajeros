@@ -42,7 +42,8 @@ FinalizarSesion --> StandBy : Expulsar tarjeta
 
 
 ## Explicación del código
-Este diagrama nos muestra el estado de funcionalidad de un cajero que pasa del estado 'StandBy' hasta que se finaliza la transacción realizada.
+Este diagrama nos muestra el estado de funcionalidad de un cajero que pasa del estado 'StandBy' hasta que se finaliza la transacción realizada. Los estados representan la situación del
+cajero y las flechas indican las transiciones entre los estados.
 
 ### StandBy
 El estado de 'StandBy' es el momento inicial del cajero que espera a que el usuario introduzca una tarjeta.
