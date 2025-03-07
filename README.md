@@ -2,6 +2,7 @@
 
 ## Código
 @startuml
+
 state StandBy
 state TarjetaIntroducida
 state TarjetaNoValida
@@ -33,4 +34,7 @@ EjecutandoTransaccion --> SeleccionTransaccion : Finalizar transacción
 SeleccionTransaccion --> FinalizarSesion : Cancelar interacción
 
 FinalizarSesion --> StandBy : Expulsar tarjeta
+
 @enduml
+
+
