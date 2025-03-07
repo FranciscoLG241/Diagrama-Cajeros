@@ -1,6 +1,7 @@
 # Diagrama-Cajeros
 
 ## Código
+```plantuml
 @startuml
 
 state StandBy
